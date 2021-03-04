@@ -1,0 +1,8 @@
+lembrar de instalar o servidor Wampserver64
+o programa foi copilado para arquiteturas 64
+
+após instalar o Wamp lembre-se de criar as tabelas que está em um arquivo txt na pasta principal, antes de criar as tabelas crie o banco, tente usar o do codigo para evitar erros...
+
+depois de criar as tabelas teste o programa.
+
+by:Lexzzy

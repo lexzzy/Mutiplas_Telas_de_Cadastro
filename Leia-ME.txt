@@ -1,0 +1,5 @@
+todas as senhas são iguais, e podem ser alteradas no codigo
+
+log:admin
+senha:admin
+
