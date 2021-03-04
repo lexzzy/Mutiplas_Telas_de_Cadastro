@@ -1,0 +1,114 @@
+deixei todas as tabelas no codigo mas vou deixar aqui tmb :)
+
+### Criando o banco
+
+primeiro crie um grupo chamado 'cadastro'
+crie um banco de dados chamado cadastro_usuarios
+
+### Tabela para criar variaveis de Login ###
+
+'''
+create table login (
+id INT NOT NULL AUTO_INCREMENT,
+usuario VARCHAR(10),
+senha VARCHAR(15),
+PRIMARY KEY (id)
+)
+'''
+
+# Tabela para criar as variaveis de Usuarios
+
+'''
+create table usuarios (
+id INT NOT NULL AUTO_INCREMENT,
+nome VARCHAR(15),
+sobrenome VARCHAR(20),
+idade VARCHAR(3),
+data_de_nascimento VARCHAR(10),
+usuario VARCHAR(10),
+genero VARCHAR(20),
+senha VARCHAR(18),
+PRIMARY KEY (id)
+);
+'''
+
+# Tabela para criar as variaveis de produto
+
+'''
+create table Produtos (
+id INT NOT NULL AUTO_INCREMENT,
+Nome_Prod VARCHAR(20),
+Desc_Prod VARCHAR(30),
+Valor_Prod DOUBLE,
+Fabri_Prod VARCHAR(20),
+Tipo_Prod VARCHAR(15),
+Uni_Prod INT,
+CodB_Prod INT,
+PRIMARY KEY (id)
+);
+'''
+
+# Tabela para criar as Variaveis de Funcionario
+
+'''
+create table Funcionario (
+id INT NOT NULL AUTO_INCREMENT,
+Nome VARCHAR(20),
+RG VARCHAR(14),
+Endereco VARCHAR(35),
+CEP VARCHAR(9),
+Nacionalidade VARCHAR(15),
+EstadoCivil VARCHAR(20),
+Raca VARCHAR(20),
+Cargo VARCHAR(20),
+Salario DOUBLE,
+VR DOUBLE,
+VT DOUBLE,
+PRIMARY KEY (id)
+);
+'''
+
+# Tabela para criar as Variaveis de Associados
+
+'''
+create table Associados (
+id INT NOT NULL AUTO_INCREMENT,
+Nome_Empresa VARCHAR(15),
+CNPJ VARCHAR(20),
+Numero_Gerente INT,
+Endereco_da_Empresa VARCHAR(30),
+Acoes DOUBLE,
+PRIMARY KEY (id)
+);
+'''
+
+# Tabela para criar as Variaveis de Clientes
+
+'''
+create table Clientes (
+id INT NOT NULL AUTO_INCREMENT,
+Nome varchar(35),
+Endereco varchar(25),
+cpf_cnpj int,
+Tell int,
+Codigo int,
+primary key (id)
+);
+'''
+
+# Tabela para criar as Variaveis de Vendedor
+
+'''
+create table Vendedor (
+id INT NOT NULL AUTO_INCREMENT,
+Nome varchar(35),
+Endereco varchar(25),
+cpf_cnpj int,
+Tell int,
+Codigo int,
+Tipo_de_Vendedor varchar(12),
+primary key (id)
+);
+'''
+
+by:Lexzzy
